@@ -33,6 +33,12 @@
       "relation": "oneToMany",
       "target": "api::blog.blog",
       "mappedBy": "author"
+    },
+    "news_articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::news-article.news-article",
+      "mappedBy": "author"
     }
   }
 }
